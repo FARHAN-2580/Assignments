@@ -16,18 +16,13 @@ public class Calculator {
 			System.out.println("Addition of a,b is "+add);
 			
 		}
-		public void addition(int a,double b )
+		public void addition(float a,float b )
 		{
 			double add=a+b;
 			System.out.println("Addition of a,b is "+add);
 			
 		}
-		public void addition(double a,int b )
-		{
-			double add=a+b;
-			System.out.println("Addition of a,b is "+add);
-			
-		}
+
 		
 		//multiplication methods
 		
@@ -41,11 +36,7 @@ public class Calculator {
 			System.out.println("Multiplication of a,b is "+multiplicatin);
 		}
 	    
-		public void multiplication(int a,double b) {
-			double multiplicatin=a*b;
-			System.out.println("Multiplication of a,b is "+multiplicatin);
-		}
-		public void multiplication(double a,int b) {
+		public void multiplication(float a,float b) {
 			double multiplicatin=a*b;
 			System.out.println("Multiplication of a,b is "+multiplicatin);
 		}
@@ -63,17 +54,12 @@ public class Calculator {
 			System.out.println("Difference of a,b is/n "+defference);
 		}
 		
-		public void difference(double a,int b)
+		public void difference(float a,float b)
 		{
 			double defference=a-b;
 			System.out.println("Difference of a,b is "+defference);
 		}
-		
-		public void difference(int a,double b)
-		{
-			double defference=a-b;
-			System.out.println("Difference of a,b is "+defference);
-		}
+
 		
 		//Division methods
 		public void division(int a,int b)
@@ -88,13 +74,7 @@ public class Calculator {
 			System.out.println("division of a,b is "+division);
 		}
 		
-		public void division(double a,int b)
-		{
-			double division=a/b;
-			System.out.println("division of a,b is "+division);
-		}
-		
-		public void division(int a,double b)
+		public void division(float a,float b)
 		{
 			double division=a/b;
 			System.out.println("division of a,b is "+division);
